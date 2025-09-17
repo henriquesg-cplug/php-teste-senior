@@ -40,11 +40,11 @@ Desenvolver uma API REST robusta e otimizada utilizando Laravel, para gerenciar 
 8.  O endpoint de relatório de vendas (`GET /api/reports/sales`) deve aceitar filtros de data (`start_date`, `end_date`) e SKU do produto (`product_sku`) via query parameters.
 
 ## Endpoints
-POST /api/inventory (Registrar entrada de produtos no estoque)
-GET /api/inventory (Obter situação atual do estoque)
-POST /api/sales (Registrar uma nova venda)
-GET /api/sales/{id} (Obter detalhes de uma venda específica)
-GET /api/reports/sales (Gerar relatório de vendas com filtros)
+- POST /api/inventory (Registrar entrada de produtos no estoque)
+- GET /api/inventory (Obter situação atual do estoque)
+- POST /api/sales (Registrar uma nova venda)
+- GET /api/sales/{id} (Obter detalhes de uma venda específica)
+- GET /api/reports/sales (Gerar relatório de vendas com filtros)
 
 ## Estrutura da Base de Dados
 
